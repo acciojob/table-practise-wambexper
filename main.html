@@ -1,36 +1,57 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    table {
+      background-color: yellow;
+      border-collapse: collapse;
+      width: 100%;
+    }
 
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    caption {
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-	
-		<th><B>Student Detaails</B></th>
-		<table border="1">
-		<tr>
-			<td><B>NAME</B></td>
-			<td><B>AGE</B></td>
-			<td><B>BRANCH</B></td>
-		</tr>
-		<tr>
-			<td><B>Shaw</B></td>
-			<td><B>29</B></td>
-			<td><B>CSE</B></td>
-		</tr>
-		<tr>
-			<td><B>Adil</B></td>
-			<td><B>21</B></td>
-			<td><B>ECE</B></td>
-		</tr>
-		
-	</table>
+
+  <table>
+    <caption>Student Details</caption>
+    <thead>
+      <tr>
+        <th>NAME</th>
+        <th>AGE</th>
+        <th>BRANCH</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John Doe</td>
+        <td>20</td>
+        <td>Computer Science</td>
+      </tr>
+      <tr>
+        <td>Jane Smith</td>
+        <td>22</td>
+        <td>Electrical Engineering</td>
+      </tr>
+      <!-- Add more rows as needed -->
+    </tbody>
+  </table>
 
 </body>
-
 </html>
